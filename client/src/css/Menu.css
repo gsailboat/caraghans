@@ -1,0 +1,16 @@
+/* the menu area needs to be white with color in the buttons */
+
+#menuContainer {
+  background-color: red;
+  padding: 5px;
+}
+
+#menuButtonAr {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  margin-left: 20px;
+  margin-right: 20px;
+}

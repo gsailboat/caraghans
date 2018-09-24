@@ -1,0 +1,35 @@
+img {
+  width: auto;
+}
+
+header {
+  background-color: grey;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+
+#logo {
+  border-radius: 10px;
+  margin: 5px;
+}
+
+#headerText {
+  margin: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+}
+
+#description {
+  margin: 5px;
+}
+
+#pAddress {
+  margin: 5px;
+}

@@ -1,0 +1,19 @@
+.mercPic {
+  width: 140px;
+}
+
+.merc {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+#shopContainer {
+  background-color: darkgray;
+  padding: 5px;
+}
+
+#mercContainer {
+  display: flex;
+  flex-direction: row;
+}

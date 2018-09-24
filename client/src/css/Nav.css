@@ -1,0 +1,25 @@
+nav {
+  padding: 5px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  list-style: none;
+
+  width: 70%;
+  background-color: white;
+}
+
+li {
+  margin: 5px;
+}
+
+nav {
+  display: flex;
+  height: 35px;
+
+  background-color: black;
+}
