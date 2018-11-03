@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 
 class Merchandise extends Component {
+
+//have this behave like the menu portion
+
   constructor (props) {
     super(props);
 
@@ -17,15 +20,15 @@ class Merchandise extends Component {
     return (
       <div className="merc">
         <div>
-          {this.state.merc.type}
+          {this.props.id}
         </div>
-        <img
+        {/* <img
           className="mercPic"
-          src={require('./images/merc/beanies.jpg')} //this needs to be part of the above
-          alt="beanie"
-        />
+          src={require(`${this.props.pic}`)} //this needs to be part of the above
+          alt={this.props.id}
+        /> */}
         <div>
-          ${this.state.merc.price}
+          ${this.props.price}
         </div>
       </div>
     );

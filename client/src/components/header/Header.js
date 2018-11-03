@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import './css/Header.css';
+import './Header.css';
 
 class Header extends Component {
   render() {
     return (
       <header className="Header">
-        <img src={require('./images/logo.jpeg')} alt="Carragher's" id="logo"/>
+        <img src={require('./pics/logo.jpeg')} alt="logo" id="logo"/>
         <div id="headerText">
           <div id="description">
             PUB RESTAURANT & SEASONAL ROOFTOP

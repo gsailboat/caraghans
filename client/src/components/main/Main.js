@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Menu from './Menus'
-import ContactUs from './ContactUs'
-import Events from './Events'
-import Shop from './Shop'
+import Menu from './menus/Menus'
+import ContactUs from './contact/ContactUs'
+import Events from './events/Events'
+import Shop from './shop/Shop'
 
 class Main extends Component {
   render() {

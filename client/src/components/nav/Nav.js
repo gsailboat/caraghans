@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './css/Nav.css';
+import './Nav.css';
 import MaterialIcon from 'material-icons-react';
 
 class Nav extends Component {
@@ -8,19 +8,19 @@ class Nav extends Component {
       <nav>
         <ul>
           <li><button>
-            <MaterialIcon icon="home" color="#212121"  />
+            <MaterialIcon icon="Home" color="#212121"  />
           </button></li>
           <li><button>
-            <MaterialIcon icon="restaurant_menu" color="#212121" />
+            <MaterialIcon icon="Menu" color="#212121" />
           </button></li>
           <li><button>
-            <MaterialIcon icon="shopping_cart" color="#212121" />
+            <MaterialIcon icon="Shop" color="#212121" />
           </button></li>
           <li><button>
-            <MaterialIcon icon="event" color="#212121" />
+            <MaterialIcon icon="Events" color="#212121" />
           </button></li>
           <li><button>
-            <MaterialIcon icon="contact_mail" color="#212121" />
+            <MaterialIcon icon="Contact" color="#212121" />
           </button></li>
         </ul>
       </nav>

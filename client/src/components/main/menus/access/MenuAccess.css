@@ -7,6 +7,8 @@
   height: 100px;
 
   margin-bottom: 20px;
+
+  background-color: lightblue;
 }
 
 .backColor {
@@ -22,4 +24,9 @@
   color: white;
 
   border-radius: 10px;
+}
+
+.pic {
+  width: 60px;
+  height: 60px;
 }

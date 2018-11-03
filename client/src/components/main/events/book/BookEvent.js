@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './css/BookEvent.css'
+import './BookEvent.css'
 
 class BookEvent extends Component {
   constructor(props) {
@@ -13,7 +13,11 @@ class BookEvent extends Component {
   render() {
     return (
       <div id="BEContainer">
-        This is only going to appear if I click a button that says i want to book an event. Its going to include a plugin to open table and instructions if they dont want to use it.
+        need to include a plugin to open table
+
+        the link can be accessed at:<br/>
+
+        https://platform.opentable.com/documentation/
         <br/><br/>
         Large parties and events, please call 646-370-1545 <br/>
         Parties of 11 or more, please email us at events@carraghersnyc.com

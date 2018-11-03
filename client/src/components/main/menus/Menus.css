@@ -1,0 +1,30 @@
+/* the menu area needs to be white with color in the buttons */
+
+#menuContainer {
+  background-color: white;
+  background-image: url("./pics/food.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: black;
+  padding: 5px;
+}
+
+#menuContainer2 {
+  background-image: url("./pics/food2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: black;
+  padding: 5px;
+}
+
+#menuButtonAr {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  margin-left: 20px;
+  margin-right: 20px;
+}

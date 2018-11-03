@@ -1,0 +1,12 @@
+{
+  "menus": [
+    "main": {
+      "picFile": "./pics/food.jpg",
+      "menuFile": "./actual/main-menu.pdf"
+    },
+    "eventMenu": {
+      "picFile": "./pics/food.jpg",
+      "menuFile": "./actual/main-menu.pdf"
+    }
+  ]
+}
