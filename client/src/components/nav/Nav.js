@@ -1,29 +1,40 @@
 import React, { Component } from 'react';
 import './Nav.css';
-import MaterialIcon from 'material-icons-react';
+import MenuIcon from '@material-ui/icons/Menu'
+import { AppBar, Typography, Toolbar, IconButton} from '@material-ui/core';
+
+
 
 class Nav extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      hello: true
+    }
+  }
+
+  handleMenu = () => {
+    this.setState(prevState => ({
+      hello: !prevState.hello
+    }));
+  }
+
   render() {
     return (
-      <nav>
-        <ul>
-          <li><button>
-            <MaterialIcon icon="Home" color="#212121"  />
-          </button></li>
-          <li><button>
-            <MaterialIcon icon="Menu" color="#212121" />
-          </button></li>
-          <li><button>
-            <MaterialIcon icon="Shop" color="#212121" />
-          </button></li>
-          <li><button>
-            <MaterialIcon icon="Events" color="#212121" />
-          </button></li>
-          <li><button>
-            <MaterialIcon icon="Contact" color="#212121" />
-          </button></li>
-        </ul>
-      </nav>
+        <AppBar
+          position="sticky"
+          color="primary"
+          className="navbar"
+        >
+          <Toolbar>
+            <IconButton
+              onClick={this.handleMenu}
+            >
+              <MenuIcon />
+            </IconButton>
+            <Typography>{this.state.hello ? "Hello" : "Bye"}</Typography>
+          </Toolbar>
+        </AppBar>
     );
   }
 }
