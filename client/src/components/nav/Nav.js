@@ -1,9 +1,27 @@
 import React, { Component } from 'react';
-import './Nav.css';
+import Theme from '../colors'
 import MenuIcon from '@material-ui/icons/Menu'
-import { AppBar, Typography, Toolbar, IconButton} from '@material-ui/core';
+import { AppBar, Typography, Toolbar, IconButton } from '@material-ui/core';
+import { withStyles } from '@material-ui/core/styles';
+import { MuiThemeProvider } from '@material-ui/core/styles';
 
-
+const styles = {
+  root: {
+    flexGrow: 1,
+    position: "fixed",
+    height: '15vh'
+  },
+  space: {
+    display: 'flex'
+  },
+  grow: {
+    flexGrow: 1,
+  },
+  menuButton: {
+    marginLeft: -12,
+    marginRight: 20,
+  },
+};
 
 class Nav extends Component {
   constructor(props) {
@@ -21,22 +39,29 @@ class Nav extends Component {
 
   render() {
     return (
-        <AppBar
-          position="sticky"
-          color="primary"
-          className="navbar"
-        >
-          <Toolbar>
-            <IconButton
-              onClick={this.handleMenu}
-            >
-              <MenuIcon />
-            </IconButton>
-            <Typography>{this.state.hello ? "Hello" : "Bye"}</Typography>
-          </Toolbar>
-        </AppBar>
+        <MuiThemeProvider theme={Theme}>
+          <AppBar className={styles.root}>
+            <Toolbar className={styles.space}>
+              <IconButton
+                onClick={this.handleMenu}
+                color='secondary'
+                className={styles.menuButton}
+              >
+                <MenuIcon />
+              </IconButton>
+              <Typography
+                variant="headline"
+                align="center"
+                color="inherit"
+                className={styles.grow}
+              >
+                {this.state.hello ? "Hello" : "Bye"}
+              </Typography>
+            </Toolbar>
+          </AppBar>
+        </MuiThemeProvider>
     );
   }
 }
 
-export default Nav;
+export default withStyles(styles)(Nav);

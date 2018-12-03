@@ -1,17 +1,36 @@
-img {
+.opener {
+  background-color: #354047;
+  height: 80vh;
+  padding-top: 18vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  width: 50vw;
+  margin: 0.4%
+}
+
+.logo {
+  width: 15vw;
+  border-radius: 0.3%;
+  margin: 0.5%;
+}
+
+/* img {
   width: auto;
 }
 
 header {
-  background-color: grey;
-  height: 95vh;
+  height: 85vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 5px;
-}
+  padding-top: 17vh;
+} */
 
-#logo {
+/* #logo {
   border-radius: 10px;
   margin: 5px;
   width: 200px;
@@ -33,4 +52,4 @@ header {
 
 #pAddress {
   margin: 5px;
-}
+} */
