@@ -5,13 +5,8 @@ class PlannedEvents extends Component {
     return (
       <div id="PEContainer">
 
-        put this into your browser and figure out how to link the carragher's fb page to the website
-        <br/><br/>
+        <div class="fb-page" data-href="https://www.facebook.com/CarrasNYC/" data-tabs="events" data-width="1200" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/CarrasNYC/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/CarrasNYC/">Carragher&#039;s Pub &amp; Restaurant</a></blockquote></div>
 
-        https://developers.facebook.com/docs/public_feed
-        <br/><br/>
-
-        FB EVENT FEED HERE
         <br/><br/>
       </div>
     );

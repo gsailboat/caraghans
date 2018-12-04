@@ -26,6 +26,8 @@ class Events extends Component {
   render() {
     return (
       <div id="eventsContainer">
+      <div id="fb-root"></div>
+      
         <br/>
         EVENTS
         <br/><br/>
