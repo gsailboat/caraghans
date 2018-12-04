@@ -6,6 +6,7 @@
     "@material-ui/core": "^3.3.2",
     "@material-ui/icons": "^3.0.1",
     "material-icons-react": "^1.0.4",
+    "material-ui-icons": "^1.0.0-beta.36",
     "nodemon": "^1.18.5",
     "prop-types": "^15.6.2",
     "react": "^16.6.0",
